@@ -3,6 +3,13 @@ import type * as Party from "partykit/server";
 export default class Main implements Party.Server {
   constructor(readonly party: Party.Party) {}
 
+  // Hibernation helps scale PartyKit servers. Before implementing sharding,
+  // read the docs on hibernation to see if it solves your scaling needs:
+  // https://docs.partykit.io/guides/scaling-partykit-servers-with-hibernation/
+  options: Party.ServerOptions = {
+    hibernate: true,
+  };
+
   onConnect(conn: Party.Connection, ctx: Party.ConnectionContext) {
     // This will happen in one of the randomly allocated rooms
     conn.send(`connected to ${this.party.id}`);
