@@ -1,0 +1,16 @@
+{
+  "name": "partykit-sharded-broadcast",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "partykit dev",
+    "deploy": "partykit deploy"
+  },
+  "dependencies": {
+    "partysocket": "0.0.10"
+  },
+  "devDependencies": {
+    "partykit": "0.0.30",
+    "typescript": "^5.2.2"
+  }
+}
