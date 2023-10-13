@@ -1,5 +1,5 @@
 {
-  "name": "partykit-sharded-broadcast",
+  "name": "example-sharding",
   "main": "src/main.ts",
   "parties": {
     "router": "src/router.ts"

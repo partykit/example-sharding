@@ -1,5 +1,5 @@
 {
-  "name": "partykit-sharded-broadcast",
+  "name": "example-sharding",
   "version": "0.0.0",
   "private": true,
   "scripts": {

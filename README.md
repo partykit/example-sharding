@@ -1,4 +1,4 @@
-## 🎈 partykit-sharded-broadcast
+## 🎈 example-sharding
 
 Welcome to the party, pal!
 
@@ -27,7 +27,7 @@ Add the [router](src/router.ts) party to your project, and add it to your [party
 
 ```diff
 {
-  "name": "partykit-sharded-broadcast",
+  "name": "example-sharding",
   "main": "src/main.ts",
 +  "parties": {
 +    "router": "src/router.ts"
