@@ -1,6 +1,9 @@
 {
   "name": "partykit-sharded-broadcast",
-  "main": "src/server.ts",
+  "main": "src/main.ts",
+  "parties": {
+    "router": "src/router.ts"
+  },
   "compatibilityDate": "2023-10-13",
   "serve": {
     "path": "public",
